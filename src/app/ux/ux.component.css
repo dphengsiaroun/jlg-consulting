@@ -1,0 +1,223 @@
+.ux {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  background-image: url('../../assets/img/ux/ux.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner::before {
+  position: absolute;
+  content: '';
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.banner h1 {
+  position: relative;
+  z-index: 2;
+  color: black;
+  font-size: 2.5em;
+  padding: 3em 2em;
+  animation: introduce 2s forwards;
+}
+
+@keyframes introduce {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.content {
+  display: block;
+  width: 100%;
+  margin: 2.5em 0;
+}
+
+.content h2 {
+  margin: 0.4em 0;
+  font-size: 1.7em;
+}
+
+.content p {
+  padding: 2em 3em;
+  font-size: 1.2em;
+}
+
+.four-bloc {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bloc-service {
+  display: inline-block;
+  width: 20%;
+  margin: 0.5em;
+  animation: fadeInUp 2s forwards;
+}
+
+.bloc-service img {
+  display: block;
+  width: 150px;
+  border-radius: 30px 0 30px 0;
+  margin: 2em auto 1em;
+}
+
+.bloc-service span {
+  display: block;
+  color: black;
+  padding: 0 0.4em 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    /* -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); */
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.services {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.sub-service {
+  float: left;
+  width: 40%;
+  margin: 1em 4.3em;
+  text-align: center;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.11);
+  transition: 0.3s;
+  animation: fadeInUp 2s forwards;
+}
+
+@media screen and (max-width: 1350px) {
+  .sub-service {
+    margin: 1em 4em;
+
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .sub-service {
+    margin: 1em 3em;
+
+  }
+  .sub-service .img-head h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  .sub-service {
+    width: 100%;
+    margin: 1em 0;
+  }
+  .sub-service .img-head h2 {
+    font-size: 2em;
+  }
+}
+
+.sub-service .img-head {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.sub-service .img-head h2 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -47%);
+  transform: translate(-50%, -47%);
+  z-index: 1;
+}
+
+.sub-service .img-head img {
+  width: 100%;
+  filter: opacity(0.3);
+}
+
+.sub-service .detail-service {
+  padding: 0.5em 2em 0;
+  text-align: left;
+}
+
+.sub-service h3 {
+  display: block;
+  margin: 1em 0 0;
+  padding-left: 0.5em;
+  font-size: 1.5em;
+  color: #1EC623;
+  border-left: 3px solid #1EC623;
+}
+
+.sub-service p {
+  font-size: 1em;
+  padding: 1em 0 0;
+}
+
+.sub-service ul {
+  margin: 0;
+}
+
+.sub-service ul li {
+  list-style-type: circle;
+  font-style: italic;
+  color: grey;
+}
+
+.sub-service .button {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em auto 1.5em;
+}
