@@ -1,3 +1,5 @@
+@import '~sass/styles.scss';
+
 .clients {
   display: block;
   width: 100%;
@@ -26,7 +28,7 @@
 .banner h1 {
   position: relative;
   z-index: 2;
-  color: black;
+  color: $black;
   font-size: 2.5em;
   padding: 3em 2em;
   animation: introduce 2s forwards;
