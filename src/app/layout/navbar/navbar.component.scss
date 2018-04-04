@@ -1,68 +1,61 @@
+@import '../../../sass/styles.scss';
+
 header {
   display: block;
   width: 100%;
   padding: 1em 0;
-}
-
-.logo img {
-  margin-left: 2em;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  margin-right: 3em;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-nav ul li a {
-  padding: 1em 1.2em;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 18px;
-  position: relative;
-  transition: 0.2s;
-}
-
-nav ul li a::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  bottom: 7px;
-  left: 18px;
-  right: 17px;
-  background-color: #1EC623;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-nav ul li a:hover {
-  text-decoration: none;
-  color: #1EC623;
-}
-
-nav ul li a:hover::after {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-nav ul li.active a {
-  text-decoration: none;
-  color: #1EC623;
-}
-
-nav ul li.active a:after {
-  visibility: visible;
-  transform: scaleX(1);
+  .logo img {
+    margin-left: 2em;
+  }
+  nav {
+    float: right;
+    ul {
+      margin-right: 3em;
+      li {
+        float: left;
+        &::after {
+          content: '';
+          display: block;
+          clear: both;
+        }
+        a {
+          padding: 1em 1.2em;
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 1.1em;
+          position: relative;
+          transition: 0.2s;
+          &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            bottom: 7px;
+            left: 18px;
+            right: 17px;
+            background-color: $hue;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          }
+          &:hover {
+            text-decoration: none;
+            color: $hue;
+            &::after {
+              visibility: visible;
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      li.active {
+        a {
+          text-decoration: none;
+          color: $hue;
+          &:after {
+            visibility: visible;
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+  }
 }
