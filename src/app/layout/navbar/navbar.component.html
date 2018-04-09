@@ -3,12 +3,10 @@
     <img src="assets/img/logo.svg">
   </a>
   <div class="nav-mobile">
-    <a id="nav-toggle" href="#!" (click)="sidebarToggle()" class="navbar-toggler navbar-burger" data-toggle="collapse" data-target="#navbarToggler">
-      <span></span>
-    </a>
+    <button (click)="isActive = !isActive;"><i class="fa fa-bars"></i></button>
   </div>
-  <nav id="navbarToggler">
-    <ul class="nav-list">
+  <nav>
+    <ul class="nav-list" [style.display]="isActive ? 'block': 'none'">
       <li class="menu-item active">
         <a href="/">Accueil</a>
       </li>

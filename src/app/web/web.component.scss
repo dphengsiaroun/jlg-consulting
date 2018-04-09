@@ -129,83 +129,83 @@
     display: block;
     clear: both;
   }
-  .row {
-    float: left;
-    width: 50%;
-    &:after {
-      content: '';
-      display: block;
-      clear: both;
-    }
-    .sub-service {
+  .group-row {
+    display: inline-block;
+    .row {
       float: left;
-      width: 29em;
-      margin: 1em 1em;
-      text-align: center;
-      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.11);
-      transition: 0.3s;
-      animation: fadeInUp 2s forwards;
-      .head-card {
+      width: 33em;
+      &:after {
+        content: '';
         display: block;
-        position: relative;
-        width: 100%;
-        height: 100%;
+        clear: both;
+      }
+      .sub-service {
+        float: left;
+        width: 29em;
+        margin: 1em 1em;
         text-align: center;
-        text-decoration: none;
-        font-size: 1.2em;
-        font-weight: bold;
-        h2 {
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.11);
+        transition: 0.3s;
+        animation: fadeInUp 2s forwards;
+        .head-card {
           display: block;
-          position: absolute;
-          margin: 0.4em 0;
-          font-size: 1.4em;
-          padding: 0;
+          position: relative;
           width: 100%;
-          border: none;
-          top: 47%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -47%);
-          transform: translate(-50%, -47%);
-          z-index: 1;
-        }
-        img {
-          width: 100%;
-          filter: opacity(0.3);
-        }
-      }
-      .show {
-        display: block;
-      }
-      .detail-service {
-        display: block;
-        padding: 0.5em 2em 0;
-        text-align: left;
-        h3 {
-          display: block;
-          margin: 1em 0 0;
-          padding: 0.2em 1em;
-          font-size: 1.5em;
-          border-left: 4px solid $hue;
-        }
-        p {
-          font-size: 1em;
-          padding: 1em 0 0;
-        }
-        ul {
-          margin: 0;
-          li {
-            list-style-type: circle;
-            font-style: italic;
-            color: grey;
+          height: 100%;
+          text-align: center;
+          text-decoration: none;
+          font-size: 1.2em;
+          font-weight: bold;
+          h2 {
+            display: block;
+            position: absolute;
+            margin: 0.4em 0;
+            font-size: 1.4em;
+            padding: 0;
+            width: 100%;
+            border: none;
+            top: 47%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -47%);
+            transform: translate(-50%, -47%);
+            z-index: 1;
+          }
+          img {
+            width: 100%;
+            filter: opacity(0.3);
           }
         }
-      }
-      .foot-card {
-        .button {
-          font-size: 1.2em;
-          min-width: 7em;
-          text-align: center;
-          margin: 1.3em 0.4em;
+        .detail-service {
+          display: block;
+          padding: 0.5em 1.3em 0;
+          text-align: left;
+          h3 {
+            display: block;
+            margin: 1em 0 0;
+            padding: 0.2em 1em;
+            font-size: 1.5em;
+            border-left: 4px solid $hue;
+          }
+          p {
+            font-size: 1em;
+            padding: 1em 0 0;
+          }
+          ul {
+            margin: 0;
+            li {
+              list-style-type: circle;
+              font-style: italic;
+              color: grey;
+            }
+          }
+        }
+        .foot-card {
+          .button {
+            font-size: 1.2em;
+            min-width: 7em;
+            text-align: center;
+            margin: 1.3em 0.4em;
+          }
         }
       }
     }
@@ -231,6 +231,11 @@
       }
     }
   }
+  .group-row {
+    .row {
+      width: 22.8em !important;
+    }
+  }
   .sub-service {
     width: 330px !important;
     .head-card {
@@ -249,7 +254,7 @@
     width: 17em !important;
     .head-card {
       h2 {
-        font-size: 1em !important;
+        font-size: 1.5em !important;
       }
     }
   }
@@ -257,7 +262,7 @@
 
 @media screen and (max-width: 700px) {
   .content {
-    width: 80%;
+    width: 90%;
   }
   .banner {
     h1 {
@@ -275,6 +280,7 @@
   }
   .container {
     .row {
+      width: 100% !important;
       .sub-service {
         width: 100% !important;
         margin: 1em 0 !important;

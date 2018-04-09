@@ -82,8 +82,7 @@
 
 @keyframes fadeInUp {
   from {
-    opacity: 0;
-    // transform: translate3d(0, 100%, 0);
+    opacity: 0; // transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 40px, 0);
   }
   to {
@@ -100,4 +99,21 @@
 
 .border-left-none {
   border-left: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bloc-logo {
+    img {
+      width: 80px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    h1 {
+      font-size: 2em;
+      padding: 3em 1em;
+    }
+  }
 }
