@@ -216,6 +216,11 @@
   .content {
     width: 95%;
   }
+  .group-row {
+    .row {
+      width: 30em !important;
+    }
+  }
   .sub-service {
     width: 450px !important;
   }

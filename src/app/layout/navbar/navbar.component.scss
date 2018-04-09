@@ -70,6 +70,7 @@ header {
     background: transparent;
     vertical-align: middle;
     height: 67px;
+    text-align: center;
     border: none;
     cursor: pointer;
     i.fa {
@@ -78,7 +79,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   header {
     .logo {
       img {
@@ -96,6 +97,7 @@ header {
     top: 16px;
     z-index: 3;
     ul {
+      // display: none;
       position: absolute;
       width: 100%;
       margin: 0 !important;
@@ -131,3 +133,8 @@ header {
   }
 }
 
+@media screen and (min-width: 770px) {
+  .nav-list {
+    display: block !important;
+  }
+}

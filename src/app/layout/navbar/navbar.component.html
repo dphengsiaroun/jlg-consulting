@@ -3,7 +3,9 @@
     <img src="assets/img/logo.svg">
   </a>
   <div class="nav-mobile">
-    <button (click)="isActive = !isActive;"><i class="fa fa-bars"></i></button>
+    <button (click)="isActive = !isActive;">
+      <i class="fa fa-bars"></i>
+    </button>
   </div>
   <nav>
     <ul class="nav-list" [style.display]="isActive ? 'block': 'none'">
