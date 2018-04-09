@@ -1,5 +1,4 @@
 @import '../../sass/styles.scss';
-
 .web {
   display: block;
   width: 100%;
@@ -59,28 +58,36 @@
   }
 }
 
-.four-bloc {
+.container-bloc-service {
   display: block;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  .bloc-service {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .row {
     display: inline-block;
-    width: 20%;
-    margin: 0.5em;
-    animation: fadeInUp 2s forwards;
-    img {
-      display: block;
-      width: 180px;
-      border-radius: 10px;
-      margin: 2em auto 1em;
-    }
-    span {
-      display: block;
-      color: black;
-      padding: 0 0.4em 2em;
-      font-size: 1.1em;
-      font-weight: bold;
+    .bloc-service {
+      float: left;
+      width: 230px;
+      margin: 0.5em;
+      animation: fadeInUp 2s forwards;
+      img {
+        display: block;
+        width: 180px;
+        border-radius: 10px;
+        margin: 2em auto 1em;
+      }
+      span {
+        display: block;
+        color: black;
+        padding: 0 0.4em 2em;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
     }
   }
 }
@@ -119,7 +126,7 @@
     display: inline-block;
     .sub-service {
       float: left;
-      width: 600px;
+      width: 500px;
       margin: 1em 1em;
       text-align: center;
       box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.11);
@@ -132,7 +139,7 @@
         height: 100%;
         text-align: center;
         text-decoration: none;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: bold;
         h2 {
           display: block;
@@ -182,29 +189,58 @@
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1024px) {
   .sub-service {
-    width: 550px;
+    width: 450px !important;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
+  .container-bloc-service {
+    .row {
+      .bloc-service {
+        width: 40%;
+        float: none;
+        display: inline-block;
+      }
+    }
+  }
   .sub-service {
-    width: 450px;
-    .img-head h2 {
-      font-size: 1.2em;
+    width: 330px !important;
+    .img-head {
+      h2 {
+        font-size: 1em;
+      }
     }
   }
 }
 
-@media screen and (max-width: 969px) {
-  .row {
-    padding: 3em;
-    .sub-service {
-      width: 100%;
-      margin: 1em auto;
-      .img-head h2 {
-        font-size: 1.5em;
+@media screen and (max-width: 700px) {
+  .banner {
+    h1 {
+      font-size: 1.8em;
+      padding: 3em 1em;
+    }
+  }
+  .container-bloc-service {
+    .row {
+      .bloc-service {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+  .container {
+    .row {
+      padding: 0 1em;
+      .sub-service {
+        width: 100% !important;
+        margin: 1em 0 !important;
+        .img-head {
+          h2 {
+            font-size: 1em;
+          }
+        }
       }
     }
   }

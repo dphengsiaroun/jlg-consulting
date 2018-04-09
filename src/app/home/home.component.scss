@@ -57,3 +57,19 @@
     margin-bottom: 1em;
   }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .carousel img {
+    top: 0%;
+    left: 23%;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel img {
+    top: 12%;
+    left: 14%;
+  }
+}
