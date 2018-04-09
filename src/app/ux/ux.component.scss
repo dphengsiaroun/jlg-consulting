@@ -1,5 +1,5 @@
 @import '../../sass/styles.scss';
-.web {
+.ux {
   display: block;
   width: 100%;
 }
@@ -49,13 +49,21 @@
   width: 100%;
   margin: 2.5em 0;
   h2 {
-    margin: 0.4em 0;
     font-size: 1.7em;
+    margin: 0;
+    padding: 0.3em 1em;
+    border-left: 5px solid $hue;
   }
   p {
-    padding: 2em 3em;
     font-size: 1.2em;
+    padding: 2em 0em;
   }
+}
+
+.content {
+  display: block;
+  width: 85%;
+  margin: 3em auto;
 }
 
 .container-bloc-service {
@@ -72,13 +80,12 @@
     display: inline-block;
     .bloc-service {
       float: left;
-      width: 230px;
+      width: 14em;
       margin: 0.5em;
       animation: fadeInUp 2s forwards;
       img {
         display: block;
         width: 180px;
-        border-radius: 10px;
         margin: 2em auto 1em;
       }
       span {
@@ -123,16 +130,22 @@
     clear: both;
   }
   .row {
-    display: inline-block;
+    float: left;
+    width: 50%;
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
     .sub-service {
       float: left;
-      width: 500px;
+      width: 29em;
       margin: 1em 1em;
       text-align: center;
       box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.11);
       transition: 0.3s;
       animation: fadeInUp 2s forwards;
-      .img-head {
+      .head-card {
         display: block;
         position: relative;
         width: 100%;
@@ -144,7 +157,11 @@
         h2 {
           display: block;
           position: absolute;
+          margin: 0.4em 0;
+          font-size: 1.4em;
+          padding: 0;
           width: 100%;
+          border: none;
           top: 47%;
           left: 50%;
           -webkit-transform: translate(-50%, -47%);
@@ -156,16 +173,19 @@
           filter: opacity(0.3);
         }
       }
+      .show {
+        display: block;
+      }
       .detail-service {
+        display: block;
         padding: 0.5em 2em 0;
         text-align: left;
         h3 {
           display: block;
           margin: 1em 0 0;
-          padding-left: 0.5em;
+          padding: 0.2em 1em;
           font-size: 1.5em;
-          color: $hue;
-          border-left: 3px solid $hue;
+          border-left: 4px solid $hue;
         }
         p {
           font-size: 1em;
@@ -180,16 +200,22 @@
           }
         }
       }
-      .button {
-        font-size: 1.2em;
-        text-align: center;
-        margin: 1em auto 1.5em;
+      .foot-card {
+        .button {
+          font-size: 1.2em;
+          min-width: 7em;
+          text-align: center;
+          margin: 1.3em 0.4em;
+        }
       }
     }
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .content {
+    width: 95%;
+  }
   .sub-service {
     width: 450px !important;
   }
@@ -207,7 +233,7 @@
   }
   .sub-service {
     width: 330px !important;
-    .img-head {
+    .head-card {
       h2 {
         font-size: 1em;
       }
@@ -215,7 +241,24 @@
   }
 }
 
+@media screen and (max-width: 740px) {
+  .content {
+    width: 85%;
+  }
+  .sub-service {
+    width: 17em !important;
+    .head-card {
+      h2 {
+        font-size: 1em !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .content {
+    width: 80%;
+  }
   .banner {
     h1 {
       font-size: 1.8em;
@@ -232,11 +275,10 @@
   }
   .container {
     .row {
-      padding: 0 1em;
       .sub-service {
         width: 100% !important;
         margin: 1em 0 !important;
-        .img-head {
+        .head-card {
           h2 {
             font-size: 1em;
           }

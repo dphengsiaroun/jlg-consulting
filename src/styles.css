@@ -33,13 +33,12 @@ li {
   display: inline-block;
   margin: 0 1em .5em;
   padding: .5em 1em;
+  min-width: 10em;
   font-size: 1.6em;
-  border-bottom: 3px solid rgb(48, 161, 52);
   background-color: #1EC623;
   color: white;
   text-decoration: none;
   text-align: center;
-  border-radius: 5px;
 }
 
 .button:hover, button:hover {
