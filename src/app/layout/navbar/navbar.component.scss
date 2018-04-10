@@ -2,14 +2,20 @@
 header {
   display: block;
   width: 100%;
-  padding: 1em 0;
-  .logo img {
-    margin-left: 2em;
+  height: 4em;
+  padding: 0.5em 0;
+  .logo {
+    float: left;
+    padding: 10px 7px;
+    img {
+      margin-left: 1em;
+    }
   }
   nav {
     float: right;
     ul {
-      margin-right: 3em;
+      margin: 0;
+      padding: 23px 1em;
       li {
         float: left;
         &::after {
@@ -18,7 +24,7 @@ header {
           clear: both;
         }
         a {
-          padding: 1em 1.2em;
+          padding: 1em;
           color: rgba(0, 0, 0, 0.7);
           font-size: 1.1em;
           position: relative;
@@ -59,17 +65,29 @@ header {
   }
 }
 
+.flags {
+  display: block;
+  float: right;
+  padding: 0.75em 1em;
+  a {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.7);
+    img {
+      margin: 0 10px;
+    }
+  }
+}
+
 // Nav Mobile
 .nav-mobile {
   display: none;
-  position: absolute;
-  top: 11px;
-  right: 15px;
+  float: right;
   button {
     display: inline-block;
     background: transparent;
     vertical-align: middle;
     height: 67px;
+    padding: 1em;
     text-align: center;
     border: none;
     cursor: pointer;
@@ -101,7 +119,8 @@ header {
       position: absolute;
       width: 100%;
       margin: 0 !important;
-      padding: 0;
+      padding: 0 !important;
+      top: -7px;
       li {
         display: inline-block;
         width: 100%;
@@ -136,5 +155,25 @@ header {
 @media screen and (min-width: 770px) {
   .nav-list {
     display: block !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    .logo {
+      img {
+        margin-left: 0.5em;
+        width: 11em !important;
+      }
+    }
+  }
+  .flags {
+    padding: 0.75em 0;
+    a {
+      img {
+        margin: 4px 8px;
+        width: 35px;
+      }
+    }
   }
 }
