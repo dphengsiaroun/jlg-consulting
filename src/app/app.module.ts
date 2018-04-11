@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
 
+// the second parameter 'fr' is optional
+registerLocaleData(localeFr, 'fr');
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
@@ -12,7 +16,6 @@ import { UxComponent } from './ux/ux.component';
 import { ContactComponent } from './contact/contact.component';
 import { WebComponent } from './web/web.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,13 +25,14 @@ import { WebComponent } from './web/web.component';
     ClientsComponent,
     UxComponent,
     ContactComponent,
-    WebComponent
+    WebComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

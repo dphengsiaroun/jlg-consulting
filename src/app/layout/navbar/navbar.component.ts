@@ -6,6 +6,7 @@ import { Component, OnInit, ElementRef } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  isActive;
 
   constructor(private element : ElementRef) {
   }

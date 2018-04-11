@@ -8,17 +8,17 @@
     </button>
   </div>
   <div class="flags">
-    <a href="">
+    <a href="../../../../dist/fr/">
       <img src="assets/img/flags/fr.svg" alt="" width="40">
     </a>
-    <a href="">
+    <a href="../../../../dist/en/">
       <img src="assets/img/flags/uk.svg" alt="" width="40">
     </a>
   </div>
   <nav>
     <ul class="nav-list" [style.display]="isActive ? 'block': 'none'">
       <li [routerLinkActive]="['active']" class="menu-item">
-        <a [routerLink]="['/home']" (click)="isActive = !isActive;" href="/home">Accueil</a>
+        <a [routerLink]="['/home']" (click)="isActive = !isActive;" href="/home" i18n>Accueil</a>
       </li>
       <li [routerLinkActive]="['active']" class="menu-item">
         <a [routerLink]="['/clients']" (click)="isActive = !isActive;" href="/clients">Clients</a>

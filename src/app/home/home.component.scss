@@ -73,3 +73,19 @@
     left: 14%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .jumbo {
+    p {
+      font-size: 2.5em;
+    }
+    .button {
+      font-size: 1.3em;
+    }
+  }
+  .carousel img {
+    top: 1%;
+    left: -4%;
+    width: 400px;
+  }
+}
