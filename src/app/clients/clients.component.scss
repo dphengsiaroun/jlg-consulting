@@ -7,7 +7,7 @@
 .banner {
   display: block;
   width: 100%;
-  background-image: url('../../assets/img/clients/clients.jpg');
+  background-image: url('../../assets/img/clients/bg-client.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
@@ -51,6 +51,7 @@
   margin: 2.5em 0;
   h2 {
     margin: 0.4em 0;
+    padding: 1em;
     font-size: 1.7em;
   }
   p {
@@ -114,6 +115,14 @@
     h1 {
       font-size: 2em;
       padding: 3em 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bloc-logo {
+    img {
+      width: 64px !important;
     }
   }
 }

@@ -7,7 +7,7 @@
     "start": "ng serve",
     "start-en": "ng serve --aot --i18n-file=src/i18n/messages.en.xlf --locale=en --i18n-format=xlf",
     "build": "ng build --prod",
-    "buildi18n": "for lang in en fr; do ng build --output-path=dist/$lang --aot -prod --bh /$lang/ --i18n-file=src/i18n/messages.$lang.xlf --i18n-format=xlf --locale=$lang; done",
+    "build-i18n": "for lang in en fr; do ng build --output-path=dist/$lang --aot -prod --bh /dany/$lang/ --i18n-file=src/i18n/messages.$lang.xlf --i18n-format=xlf --locale=$lang; done",
     "build-xlf": "ng xi18n --output-path src/i18n",
     "test": "ng test",
     "lint": "ng lint",
