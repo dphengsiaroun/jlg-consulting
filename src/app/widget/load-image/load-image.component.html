@@ -1,0 +1,9 @@
+<div class="bloc-service">
+  <div class="placeholder">
+    <img *ngIf="noImages" src="" alt="">
+    <img *ngIf="showSmallImg" class="img-small loaded" src="{{smallImg}}" alt="">
+    <img *ngIf="showBigImg" class="img-large" src="{{largeImg}}" alt="">
+  </div>
+  <span i18n>{{title}}</span>
+</div>
+

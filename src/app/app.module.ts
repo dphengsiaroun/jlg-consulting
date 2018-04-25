@@ -15,6 +15,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { UxComponent } from './ux/ux.component';
 import { ContactComponent } from './contact/contact.component';
 import { WebComponent } from './web/web.component';
+import { LoadImageComponent } from './widget/load-image/load-image.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { WebComponent } from './web/web.component';
     UxComponent,
     ContactComponent,
     WebComponent,
+    LoadImageComponent,
   ],
   imports: [
     BrowserModule,

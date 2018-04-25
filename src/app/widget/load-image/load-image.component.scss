@@ -1,0 +1,66 @@
+.bloc-service {
+  float: left;
+  width: 17em;
+  margin: 0.5em;
+  animation: fadeInUp 2s forwards;
+  .placeholder {
+    width: 180px;
+    height: 120px;
+    margin: 2em auto 1em;
+    background-color: #f6f6f6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    img {
+      position: absolute;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transition: opacity 1s linear;
+    }
+    img.img-large {
+      display: none;
+    }
+    img.img-small {
+      display: block;
+      filter: blur(5px);
+      transform: scale(1);
+    }
+  }
+  span {
+    display: block;
+    color: black;
+    padding: 0 0.4em 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+
+.placeholder {
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 1s linear;
+}
+
+.placeholder img.loaded {
+  opacity: 1;
+}
+
+.img-small {
+  filter: blur(50px);
+  /* this is needed so Safari keeps sharp edges */
+  transform: scale(1);
+}
