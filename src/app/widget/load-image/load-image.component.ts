@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostListener, ElementRef, Renderer } from '@angular/core';
+import { Component, OnInit, Input, HostListener, ElementRef, Renderer, AfterViewInit, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-load-image',
@@ -7,17 +7,16 @@ import { Component, OnInit, Input, HostListener, ElementRef, Renderer } from '@a
 })
 export class LoadImageComponent implements OnInit {
 
-  // @Input() largeImg: string;
-  // @Input() smallImg: string;
-  // @Input() title: string;
 
-  // showBigImg: boolean = false;
-  // showSmallImg: boolean = false;
+  @Input() src: string;
+  @Input() title: string;
 
-  // constructor(private el: ElementRef, private renderer: Renderer) { }
+  imgReady: boolean = false;
+
+  constructor(private elementRef: ElementRef) { }
+
   ngOnInit() {
-    // progressive-image.js
-
   }
+
 
 }

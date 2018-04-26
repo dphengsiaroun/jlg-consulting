@@ -38,6 +38,18 @@
   }
 }
 
+@media screen and (max-width: 1029px) {
+  .bloc-service {
+    width: 14em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bloc-service {
+    width: 17em;
+  }
+}
+
 .placeholder {
   background-color: #f6f6f6;
   background-size: cover;

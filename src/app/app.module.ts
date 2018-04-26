@@ -15,7 +15,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { UxComponent } from './ux/ux.component';
 import { ContactComponent } from './contact/contact.component';
 import { WebComponent } from './web/web.component';
-import { LoadImageComponent } from './widget/load-image/load-image.component';
+import { WidgetModule } from './widget/widget.module';
 
 @NgModule({
   declarations: [
@@ -27,11 +27,11 @@ import { LoadImageComponent } from './widget/load-image/load-image.component';
     UxComponent,
     ContactComponent,
     WebComponent,
-    LoadImageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    WidgetModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

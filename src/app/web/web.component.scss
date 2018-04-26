@@ -214,6 +214,13 @@
 }
 
 @media screen and (max-width: 1029px) {
+  .container-bloc-service {
+    .row {
+      .bloc-service {
+        width: 14em;
+      }
+    }
+  }
   .content {
     width: 95%;
   }
@@ -227,6 +234,7 @@
 @media screen and (max-width: 768px) {
   .container-bloc-service {
     .row {
+      width: 79%;
       .bloc-service {
         width: 40%;
         float: none;
@@ -249,6 +257,14 @@
 }
 
 @media screen and (max-width: 740px) {
+  .container-bloc-service {
+    .row {
+      width: 100%;
+      .bloc-service {
+        width: 40%;
+      }
+    }
+  }
   .content {
     width: 85%;
   }
