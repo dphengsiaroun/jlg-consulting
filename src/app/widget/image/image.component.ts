@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { LoadImageService } from '../load-image.service';
 
 @Component({
   selector: 'app-image',
@@ -12,7 +13,7 @@ export class ImageComponent implements OnInit, OnChanges {
   smallImg: string;
   state: number;
 
-  constructor() { }
+  constructor(private li: LoadImageService) { }
 
   ngOnInit() {
     this.state = 0;
@@ -20,8 +21,8 @@ export class ImageComponent implements OnInit, OnChanges {
       this.state = 1;
       setTimeout(() => {
         this.state = 2;
-      }, 4000);
-    }, 4000);
+      }, 2000);
+    }, 500);
   }
 
   ngOnChanges(changes: SimpleChanges): void {
