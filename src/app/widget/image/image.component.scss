@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  transition: opacity 1s;
+  opacity: 0;
+  &.visible {
+    opacity: 1;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  &.small {
+    filter: blur(5px);
+    transform: scale(1.05);
+  }
+}
+
+.state0 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #eee;
+}
+
+.state1 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.state2 {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}

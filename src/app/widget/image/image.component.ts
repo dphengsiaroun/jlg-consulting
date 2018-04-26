@@ -10,10 +10,18 @@ export class ImageComponent implements OnInit, OnChanges {
 
   @Input() src: string;
   smallImg: string;
+  state: number;
 
   constructor() { }
 
   ngOnInit() {
+    this.state = 0;
+    setTimeout(() => {
+      this.state = 1;
+      setTimeout(() => {
+        this.state = 2;
+      }, 4000);
+    }, 4000);
   }
 
   ngOnChanges(changes: SimpleChanges): void {
