@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { sleep } from '../misc';
 
 @Injectable()
 export class LoadImageService {
@@ -12,11 +13,10 @@ export class LoadImageService {
     return new Promise((resolve, reject) => {
       console.log('start to load', url);
       const img = new Image();
-      img.onload = () => {
-        setTimeout(() => {
-          console.log('loaded', url);
-          resolve();
-        }, 2000);
+      img.onload = async () => {
+        // await sleep(2000);
+        console.log('loaded', url);
+        resolve();
       };
       img.onerror = () => {
         console.log('error', url);
