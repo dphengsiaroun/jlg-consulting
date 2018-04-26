@@ -1,11 +1,11 @@
 import { Component, OnInit, Input, HostListener, ElementRef, Renderer, AfterViewInit, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-load-image',
-  templateUrl: './load-image.component.html',
-  styleUrls: ['./load-image.component.scss']
+  selector: 'app-figure',
+  templateUrl: './figure.component.html',
+  styleUrls: ['./figure.component.scss']
 })
-export class LoadImageComponent implements OnInit {
+export class FigureComponent implements OnInit {
 
 
   @Input() src: string;
