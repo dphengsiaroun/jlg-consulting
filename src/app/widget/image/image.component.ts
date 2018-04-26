@@ -16,18 +16,27 @@ export class ImageComponent implements OnInit, OnChanges {
   constructor(private li: LoadImageService) { }
 
   ngOnInit() {
-    this.state = 0;
-    setTimeout(() => {
-      this.state = 1;
-      setTimeout(() => {
+    this.smallImg = this.src.replace(/\.(jpg|png)/, '-small.$1');
+    (async () => {
+      try {
+        this.state = 0;
+        await this.li.loadImage(this.smallImg);
+        this.state = 1;
+        await this.li.loadImage(this.src);
         this.state = 2;
-      }, 2000);
-    }, 500);
+      } catch (e) {
+        console.error('Cannot load image', this.smallImg, this.src);
+      }
+    })();
+
   }
 
   ngOnChanges(changes: SimpleChanges): void {
     console.log('changes', changes);
-    this.smallImg = this.src.replace(/\.(jpg|png)/,'-small.$1');
+
+
+
+
   }
 
 }
