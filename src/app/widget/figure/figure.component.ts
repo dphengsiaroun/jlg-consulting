@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostListener, ElementRef, Renderer, AfterViewInit, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-figure',
@@ -13,7 +13,7 @@ export class FigureComponent implements OnInit {
 
   imgReady: boolean = false;
 
-  constructor(private elementRef: ElementRef) { }
+  constructor() { }
 
   ngOnInit() {
   }
