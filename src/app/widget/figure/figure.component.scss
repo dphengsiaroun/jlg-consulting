@@ -46,7 +46,8 @@
 
 @media screen and (max-width: 768px) {
   .bloc-service {
-    width: 17em;
+    width: 18em;
+    margin: 0;
   }
 }
 
@@ -75,4 +76,31 @@
   filter: blur(50px);
   /* this is needed so Safari keeps sharp edges */
   transform: scale(1);
+}
+
+@media screen and (max-width: 568px) {
+  .placeholder {
+    width: 100% !important;
+    height: 320px !important;
+  }
+  .bloc-service {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .placeholder {
+    width: 100% !important;
+    height: 220px !important;
+  }
+  .bloc-service {
+    width: 100%;
+  }
+}
+
+@media screen and(max-width: 350px) {
+  .placeholder {
+    width: 100% !important;
+    height: 180px !important;
+  }
 }

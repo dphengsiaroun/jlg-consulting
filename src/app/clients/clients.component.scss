@@ -4,33 +4,6 @@
   width: 100%;
 }
 
-.banner {
-  display: block;
-  width: 100%;
-  background-image: url('../../assets/img/clients/bg-client.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  h1 {
-    position: relative;
-    z-index: 2;
-    color: $black;
-    font-size: 2.5em;
-    padding: 3em 2em;
-    animation: introduce 2s forwards;
-  }
-  &::before {
-    position: absolute;
-    content: '';
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.8);
-  }
-}
-
 @keyframes introduce {
   from {
     opacity: 0;
@@ -142,12 +115,20 @@
       padding: 3em 1em;
     }
   }
+  app-image {
+    width: 90px !important;
+    height: 90px !important;
+  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 580px) {
   .bloc-logo {
     img {
       width: 64px !important;
     }
+  }
+  app-image {
+    width: 70px !important;
+    height: 70px !important;
   }
 }
