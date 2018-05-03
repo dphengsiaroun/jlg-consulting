@@ -1,8 +1,34 @@
+.banner {
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-size: 2.5em;
+    padding: 3em 2em;
+    animation: introduce 2s forwards;
+  }
+  &::before {
+    position: absolute;
+    content: '';
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+  }
+}
+
 :host {
   display: block;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 15em;
 }
 div {
   position: absolute;
@@ -16,14 +42,11 @@ div {
   }
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  &.small {
-    filter: blur(5px);
-    transform: scale(1.05);
-  }
+.lightDOM {
+  opacity: 1;
+  z-index: 3;
+  padding-top: 6.2em;
+  padding-left: 3em;
 }
 
 .state0 {
