@@ -4,30 +4,10 @@
   width: 100%;
 }
 
-.banner {
-  display: block;
-  width: 100%;
-  background-image: url('../../assets/img/web/bg-web.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+app-parallax {
   h1 {
-    position: relative;
-    z-index: 2;
-    color: black;
-    font-size: 2.5em;
-    padding: 3em 2em;
+    font-size: 2em;
     animation: introduce 2s forwards;
-  }
-  &::before {
-    position: absolute;
-    content: '';
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.8);
   }
 }
 
