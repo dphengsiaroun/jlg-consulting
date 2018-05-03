@@ -28,7 +28,6 @@ export class ImageComponent implements OnInit, OnChanges {
         console.error('Cannot load image', this.smallImg, this.src);
       }
     })();
-
   }
 
   ngOnChanges(changes: SimpleChanges): void {

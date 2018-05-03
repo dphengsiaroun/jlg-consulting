@@ -157,6 +157,7 @@
           text-decoration: none;
           font-size: 1.2em;
           font-weight: bold;
+          overflow: hidden;
           h2 {
             display: block;
             position: absolute;
@@ -171,9 +172,25 @@
             transform: translate(-50%, -47%);
             z-index: 1;
           }
-          img {
-            width: 100%;
+          app-image {
+            height: 380px;
             filter: opacity(0.3);
+            img {
+              position: absolute;
+              opacity: 1;
+              top: 0;
+              left: 0;
+              width: 100%;
+              transition: opacity 1s linear;
+            }
+            img.img-large {
+              display: none;
+            }
+            img.img-small {
+              display: block;
+              filter: blur(5px);
+              transform: scale(0.5);
+            }
           }
         }
         .detail-service {
