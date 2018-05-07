@@ -14,7 +14,7 @@ export class LoadImageService {
       console.log('start to load', url);
       const img = new Image();
       img.onload = async () => {
-        await sleep(2000);
+        // await sleep(2000);
         console.log('loaded', url);
         resolve();
       };

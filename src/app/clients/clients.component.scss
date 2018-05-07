@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+app-parallax {
+  h1 {
+    font-size: 2em;
+    animation: introduce 2s forwards;
+  }
+}
+
 @keyframes introduce {
   from {
     opacity: 0;
