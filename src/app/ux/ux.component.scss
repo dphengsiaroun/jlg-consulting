@@ -119,7 +119,7 @@ app-parallax {
       transition: 0.3s;
       animation: fadeInUp 2s forwards;
       .head-card {
-        float: left;
+        display: block;
         position: relative;
         width: 100%;
         height: 100%;
@@ -164,7 +164,7 @@ app-parallax {
         }
       }
       .detail-service {
-        float: left;
+        display: block;
         padding: 0.5em 1.3em 0;
         text-align: left;
         h3 {
@@ -188,6 +188,7 @@ app-parallax {
         }
       }
       .foot-card {
+        display: block;
         .button {
           font-size: 1.2em;
           min-width: 7em;

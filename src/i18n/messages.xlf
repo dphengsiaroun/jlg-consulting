@@ -55,6 +55,13 @@
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="cda3be2f3505e947418d3a74c31b51543e75fdac" datatype="html">
+        <source>User Experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ux/ux.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2a02c6d6b2c8d27bf4af754e4b5b6033c24ab567" datatype="html">
         <source>Nous vous proposons 4 missions vous permettant d&apos;améliorer le niveau d&apos;ergonomie et la « user experience » de vos interfaces
       logicielles :</source>
@@ -67,98 +74,99 @@
         <source>Test d&apos;utilisabilité</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="02309a2e370ad405c0f6b460e95c844299a8d75e" datatype="html">
         <source>Audit ergonomique</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06d98e26c4c85503956e3da686d50cb4c60623d4" datatype="html">
         <source>Prototypage</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="54bfc7a6906ba92eb1143ac0cc1ea516c52be794" datatype="html">
         <source>Modélisation utilisateur</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="30081ccf64d55901c13146a14e79d86480a8e56a" datatype="html">
-        <source>Nous pouvons délivrer des <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>prestations de formation et de coaching<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> directement au sein de votre entreprise pour permettre
-        aux acteurs de vos projets de mieux comprendre et mettre en pratique la démarche ergonomique et vous permettre ainsi
-        d&apos;apporter à vos clients des produits réalisés pour eux.</source>
+      <trans-unit id="0ecc95f3eecfd8df139ead70fa3cbfcf013e59d4" datatype="html">
+        <source>Nous pouvons délivrer des
+        <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>prestations de formation et de coaching<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> directement au sein de votre entreprise pour permettre aux acteurs de
+        vos projets de mieux comprendre et mettre en pratique la démarche ergonomique et vous permettre ainsi d&apos;apporter
+        à vos clients des produits réalisés pour eux.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
         <source>Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">71</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">158</context>
+          <context context-type="linenumber">151</context>
         </context-group>
       </trans-unit>
       <trans-unit id="58aa6f5c6097f772c2707dc2fb2abfa53cb1f893" datatype="html">
         <source>Observer un utilisateur ayant un objectif précis le conduisant à utiliser votre site.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c025d365def5f61d32f2c084445b6464c1ef4f11" datatype="html">
         <source>Objectifs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">37</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">74</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">109</context>
+          <context context-type="linenumber">101</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">160</context>
+          <context context-type="linenumber">153</context>
         </context-group>
       </trans-unit>
       <trans-unit id="15ae9a95d04d9316084806ed0ab0ab043b2e11da" datatype="html">
@@ -166,26 +174,26 @@
                   <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Améliorer le niveau ergonomique de votre site.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9fad763ea97f68470305dee029b85f20ce782955" datatype="html">
         <source>Réalisation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">40</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">76</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">103</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">167</context>
+          <context context-type="linenumber">160</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3069125215739c5f0f97bf8a17af7c0a448fb0bb" datatype="html">
@@ -193,42 +201,42 @@
                   site web à l&apos;aide d&apos;un utilisateur neutre. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1040b2f0efe8bcfe72ee13842d0b7966de5bfca5" datatype="html">
         <source>Recruter 2 utilisateurs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="69911a513405a3fd9ddb52d262a1da8a8008d9ed" datatype="html">
         <source>Décider quels tâches ils vont essayer d&apos;accomplir avec le site</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="24bbf744aa9199fd7c70f6b7c9a5605602bca587" datatype="html">
         <source>La réunion dure 3 heures maximum :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="05eb5e1fb6e96897419198cc3b4ac6c6818aa59d" datatype="html">
         <source>2 heures pour observer 2 utilisateurs.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="213e48336d19608da10e0b84aa1cdfadb22ad234" datatype="html">
         <source>1 heure pour débriefer avec les équipes projet et avoir le pipeline à besoin ergonomique rempli.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3f0de07d481a781fab28b9763b188443c7e477ad" datatype="html">
@@ -236,7 +244,7 @@
                   tout au long du projet. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="91ecdee4f0dcd76683e8e0f6a1e0a655c18107fa" datatype="html">
@@ -244,56 +252,58 @@
                   pratique pour savoir comment organiser et mener cette réunion de test de façon autonome. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7fd2f7015bc10cc69e9ec67b956e93992381fb3" datatype="html">
         <source>Tarif</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">80</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">136</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">171</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="509306af5f738454d70fa32d7e7cda61205eeb49" datatype="html">
-        <source>A partir de <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>2000 euros HT<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> par réunion, en fonction de vos besoins.</source>
+      <trans-unit id="94d9f82a8406cdf47f6a163604d49770711fb935" datatype="html">
+        <source>A partir de
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>2000 euros HT<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> par réunion, en fonction de vos besoins.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dc890d9b9d20fbca77f168399fe10b72c25c98ee" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Contactez-nous</source>
+      <trans-unit id="c574c0b4c53c91ba45cf1266c3c0bfc366439a9c" datatype="html">
+        <source>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Contactez-nous</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">86</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">141</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">183</context>
+          <context context-type="linenumber">176</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2c34710c1687fe4951b1257126617fd8db70ac6c" datatype="html">
@@ -301,14 +311,14 @@
                   chacun de ces ́éléments.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e4881d354f2b8e9ffd264351e3de5d5d38b02802" datatype="html">
         <source>Améliorer l&apos;interface utilisateur d&apos;une application ou d&apos;une maquette existante.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="729629869e62beb994cb601f12eeebc2609a0624" datatype="html">
@@ -316,14 +326,14 @@
                   de la cheklist de Suzan Weinschenk (100 Things that every designer should know).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1ad8a787dcf206a69008337f5bce1bfc6e71dbfd" datatype="html">
         <source>Si cette mission est réalisée par un consultant expérimenté en ergonomie, meilleur est le résultat.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3867890233e3a10ffe49224959e7b692feaabf3a" datatype="html">
@@ -332,7 +342,7 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="30703f8070d97ad58aaf89f9fa84863104483018" datatype="html">
@@ -340,14 +350,14 @@
                   d&apos;applications correspondant à des objectifs utilisateur clairs et précis.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">107</context>
+          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d0498914423549d89fb3ff1f558306f8987ce94d" datatype="html">
         <source>Délivrer à l&apos;équipe de développement une maquette de bon niveau ergonomique, déjà validée par les utilisateurs.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">110</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f4a4a03d6acd0a1e6c370d7c0f512e027ac5b010" datatype="html">
@@ -357,7 +367,7 @@
                   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Modéliser Utilisateur<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> permet de le faire proprement si besoin.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">104</context>
         </context-group>
       </trans-unit>
       <trans-unit id="63a89740263a6b389022c341da724a0fd1b71b7a" datatype="html">
@@ -366,14 +376,14 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">116</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b2311d521cc0b599864547d16df1b2408b1f8bc1" datatype="html">
         <source>Une fois le portail définit et les applications précisées, vous êtes prêts pour prototyper.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d253f9eb71d00e09ddfb453917a8c05f942bb62c" datatype="html">
@@ -381,7 +391,7 @@
                   <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>toutes doivent être validées par un utilisateur<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1d4443a7b6a893c74216a82af1086fd36815cebd" datatype="html">
@@ -389,35 +399,35 @@
                     tour en 5 sous-étapes et récursivement. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">123</context>
+          <context context-type="linenumber">115</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98bebdd70d30ef5487a85c8268a6afc7c10abcd2" datatype="html">
         <source>Mise en œuvre d&apos;un storyboard en wireframe. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">125</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5746ada005886f58b055cd484fd82fc8c852bde4" datatype="html">
         <source>Mise au propre du storyboard. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">126</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="872704042c6ca4ec151b9382f874ae6c75ab6050" datatype="html">
         <source>Intégration des éléments graphiques à l&apos;aide d&apos;un graphiste (mockup). </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">127</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8e250e0cad27cb414c9bff5cdb49066141f590ab" datatype="html">
         <source>Partage du mockup avec l&apos;équipe développement.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">120</context>
         </context-group>
       </trans-unit>
       <trans-unit id="04c129a8195a74aee8d200c500e0fc221d813eeb" datatype="html">
@@ -426,28 +436,28 @@
                   test n&apos;est pas valide. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="04726e2579da7d0a79d438ac405d51adbf4ea26e" datatype="html">
         <source>Pendant le test, le facilitateur peut demander SEULEMENT deux choses :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">133</context>
+          <context context-type="linenumber">125</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5985c61eeaa65d1376206969f14c13c7190c28c6" datatype="html">
         <source>Qu&apos;est-ce que vous comprenez ?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">135</context>
+          <context context-type="linenumber">127</context>
         </context-group>
       </trans-unit>
       <trans-unit id="73b5a1e34f8df053d9c6f2711602d6942b74d39f" datatype="html">
         <source>Où est-ce que vous voulez cliquer ?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">136</context>
+          <context context-type="linenumber">128</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c0064a6fa2a9870e0e514d048934cd5ef958c0f6" datatype="html">
@@ -456,7 +466,7 @@
                   objectif à bien, alors le test échoue : on a trouvé un bug qui devrait être corrigé. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8107604d6cd3710204a750b927d172255dc15424" datatype="html">
@@ -465,7 +475,7 @@
                   autonome sur ces aspects. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">141</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d6ae3934cb13f9fa54dc2c53f67df6a6c4816bcf" datatype="html">
@@ -473,42 +483,42 @@
                   <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>4000 euros<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> par processus nominal en fonction de vos besoins.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="39a60000252d9a97e1a42a8fb164417e235f694d" datatype="html">
         <source>Un ensemble d&apos;activité qui permet aux designers de voir leur cible : l&apos;utilisateur.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a68e4b2ca6a4dfb4fd5e75bf1dc7f04d32c8f0fb" datatype="html">
         <source>Rendre visible et disponible à tous les partis prenantes du projet ce qu&apos;est un utilisateur :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">161</context>
+          <context context-type="linenumber">154</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f814f1776e4b116684798cf373c7505e84e7ab89" datatype="html">
         <source>qui il est, </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e7c85bc90916773b826643dde7d0373449c7c0aa" datatype="html">
         <source>quels sont ses objectifs,</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">164</context>
+          <context context-type="linenumber">157</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7daf4870ce686631ac4a6834c854f518c17b5e66" datatype="html">
         <source>et comment il voudrait mener à bien ses objectifs, dans quel contexte, dans quelles conditions.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6169b29d5a966658f03914cecf094a23b729e5f1" datatype="html">
@@ -517,42 +527,42 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">168</context>
+          <context context-type="linenumber">161</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ca4cda1a83d63c484dc57f1a9aada2bf394c10c4" datatype="html">
         <source>Personae,</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">172</context>
+          <context context-type="linenumber">165</context>
         </context-group>
       </trans-unit>
       <trans-unit id="91de0faad7514d50580ec0b52a71d452a604c1a9" datatype="html">
         <source>Diary studies</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="113e1991d67dd9607b6da77350d06f54770f95ca" datatype="html">
         <source>Observation sur site</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">174</context>
+          <context context-type="linenumber">167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="405deb58911bb8e5f84a0bed38139c53bc849ccb" datatype="html">
         <source>Interview</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">175</context>
+          <context context-type="linenumber">168</context>
         </context-group>
       </trans-unit>
       <trans-unit id="75d1a2804ed0c0565be709cd769357c8d448928c" datatype="html">
         <source>Questionnaires</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">176</context>
+          <context context-type="linenumber">169</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d3325a96cbc543537173f60948c093483bfb025c" datatype="html">
@@ -560,7 +570,14 @@
                   <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3000 euros<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> en fonction de vos besoins. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/ux/ux.component.ts</context>
-          <context context-type="linenumber">179</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact/contact.component.ts</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="753797eb046ef911d8a81008302d8b74efe2cb9f" datatype="html">
@@ -574,44 +591,44 @@
         <source>Développement web spécifique</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">11</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="92f5044068b7db9724011d524365cb123e1b15ea" datatype="html">
         <source>Maintenance de site web</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4367646f724e12992d73d51ffb839482cf7438a5" datatype="html">
         <source>CMS : Sites statiques et blogs</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="301f6efcf025236bbfb3805bc5b57bc199a17974" datatype="html">
         <source>Site de vente en ligne</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">123</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3313f34bb7b04d1b3d6ed9b06715de376512d54c" datatype="html">
@@ -621,21 +638,21 @@
       démarches de projets.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4982c04f081a4d534bcc4e98ca7b5820ddd14f1b" datatype="html">
         <source>Notre équipe est spécialisée dans les 3 « stacks » suivantes : PHP, NodeJS/Javascript, Java.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5485cfa9111ca734d45e6cc0febf0386c87ef547" datatype="html">
         <source>Nous travaillons souvent avec les framework suivants :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2bdda92effc95f45b72d9516f6a0c0e993addfdc" datatype="html">
@@ -643,7 +660,7 @@
                 tablette.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="96472597175c066819a25869eb48d04d9692afce" datatype="html">
@@ -651,14 +668,14 @@
                 de webservices avec des technologies telles que Java (JavaEE, Spring), NodeJS (Express), ou PHP (Zend, Symphony).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d9fb0e648078c8f31d54010c14011382362b6524" datatype="html">
         <source>Nous pouvons aussi développer des écrans de visualisation dynamiques de données 2D ou 3D avec :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6af58e3411befc3e6d1e963320aa16b674a51209" datatype="html">
@@ -666,19 +683,19 @@
                 <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Contactez-nous</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">54</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ab5792bafe11fed9f68496f7da18dcf6d84120eb" datatype="html">
@@ -687,14 +704,14 @@
               </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="097931fcdb9f6ca8874ffd0ced2a9a449e6f1a3e" datatype="html">
         <source>Nous effectuons cette mission par gestion de tickets.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fedb1342030b467062e509fc3e43141638059c42" datatype="html">
@@ -702,7 +719,7 @@
                 mail ou par un système de tickets comme Trello, JIRA, etc.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5c6f2bd413f7b705d25690b76731f020d2139951" datatype="html">
@@ -710,56 +727,56 @@
                   Nous garantissons une réponse sous 1 jour ouvré.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d83bb2676f9a2c732bf841ad42e52c57ad10f699" datatype="html">
         <source>Vous envoyé votre « go » ou votre « no-go ».</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="130fb8e7ac5ab64331f007adbfb4aeca034247e1" datatype="html">
         <source>Dans le cas d&apos;un « go », nous réalisons la mission et ses tests afférents (Dev, Test, UAT, Prod).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="29b8a0d491123f908323d65d404834b89787ede9" datatype="html">
         <source>Nous pouvons vous aidez à maintenir votre site internet pour les technologies suivantes :</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9af27b632295b316dc6e66f6906b8bf24beb45f0" datatype="html">
         <source>Principaux CMS: Wordpress, Drupal, etc.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">107</context>
+          <context context-type="linenumber">92</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a0e22d0b56ea1f433c8af6db67dfafe0305159d5" datatype="html">
         <source>Principaux eCommerce: WooCommerce, Prestashop, etc.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="213e7a6d67b8e6c72b57cdc45177d038860c097c" datatype="html">
         <source>Sites spécifiques (Angular, React, Vue, etc.)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">109</context>
+          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="035aaacb540923080d0bdd45de371f3b6187c941" datatype="html">
         <source>Un montant forfaitaire mensuel additionné des tickets traités.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0164f16bac1f2cdecaaa41414d97900e37b54ed2" datatype="html">
@@ -767,7 +784,7 @@
                 le niveau de disponibilité demandée et le volume. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0ffb601b8fe97af6004a03897d521fece8193b5b" datatype="html">
@@ -775,7 +792,7 @@
                 avec diverses plateformes telles que : WooCommerce, Prestashop, Magento, etc.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/web/web.component.ts</context>
-          <context context-type="linenumber">127</context>
+          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
     </body>
